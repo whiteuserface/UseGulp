@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "gulp": "^4.0.2",
     "yarn": "^1.22.18"
+  },
+  "name": "gulp",
+  "version": "1.0.0",
+  "repository": "https://whiteuserface@github.com/whiteuserface/UseGulp.git",
+  "author": "whiteuserface <white.user.face@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp-pug": "^5.0.0"
   }
 }
